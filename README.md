@@ -1,2 +1,91 @@
 # icefacilityreports
-Data from Facility Significant Incident Reports from US Immigration and Customs Enforcement detention centers.
+Data from Facility Significant Incident Reports from US Immigration and Customs Enforcement detention centers, scarped from the ICE Facility Significant Incident Reports from 2018-2022.  Data Can be seen on in interactive format at the ICE Facility Outcomes Dataset, along with a more detailed data dictionary. 
+
+# Data Dictionary
+- **name**: Facility Name
+- **address**: Facility Address
+- **city**: Facility City
+- **state**: Facility State
+- **zipcode**: Facility ZIP code
+- **county**: Facility County
+- **latitude**: Facility Latitude
+- **longitude**: Facility Longitude
+- **month**: Month of Observation
+- **year**: Year of Observation
+- **fiscalyear**: Federal Fiscal Year
+- **inspectionmonth**: Month of Inspection
+- **inspectionyear**: Year of Inspection
+- **adp**: Average Daily Population
+- **administrativesegregation**: Administrative Segregation
+- **calculatedforce**: Calculated Use of Force
+- **chemicalforce**: Use of Force w/Chemical Agents
+- **detainee_detainee_physassault_noseriousinj**: Detainee on Detainee Physical Assault, No Serious Injury
+- **detainee_detainee_physassault_seriousinj**: Detainee on Detainee Physical Assault, Serious Injury
+- **detainee_staff_physassault_noseriousinj**: Detainee on Staff Physical Assault, No Serious Injury
+- **detainee_staff_physassault_seriousinj**: Detainee on Staff Physical Assault, Serious Injury
+- **disciplinaryappeals**: Disciplinary Appeals
+- **disciplinaryappeals_detaineefavor**: Disciplinary Appeals, found in favor in detainee
+- **disciplinaryinfractions**: Disciplinary Infractions
+- **disciplinaryinfractions_guilty**: Disciplinary Infractions, guilty
+- **disciplinarysegregation**: Disciplinary Segregation
+- **mentalhealthsegregation**: Mental Health Segregation
+- **totalsegregation**: Total Segregation
+- **force_seriousinjury**: Use of Force With Serious Injury
+- **hungerstrikes**: Hunger Strikes
+- **immediateforce**: Immediate Use of Force
+- **infectiousdiseasesconfirmed**: Infectious Diseases-Confirmed
+- **infectiousdiseasesreported**: Infectious Diseases-Reported
+- **medicalobservation**: Number under Medical Observation
+- **medicalsegregation**: Medical Segregation
+- **mentalhealthobservation**: Mental Health Observation
+- **nonlethalweaponsincidents**: Non Lethal Weapons
+- **offsiteemergencycare**: Offsite Emergency Care
+- **offsitementalhealthcare**: Offsite Mental Healthcare
+- **outsidemedicalreferrals**: Offsite Medical Referrals
+- **offsitemedicalcare**: Offsite Medical Admissions
+- **pointrestraints**: Point Restraints Use
+- **sanctionsover60days**: Disciplinary Sanctions over 60 days
+- **sexual_detaineedetainee**: Detainee on Detainee Sexual Assault Allegations
+- **sexual_detaineedetainee_sub**: Detainee on Detainee Sexual Assault Allegations (Substantiated)
+- **sexual_detaineeinmate**: Detainee on Inmate Sexual Assault Allegations
+- **sexual_detaineeinmate_sub**: Detainee on Inmate Sexual Assault Allegations (Substantiated)
+- **sexual_detaineestaff**: Detainee on Staff Sexual Assault Allegations
+- **sexual_detaineestaff_sub**: Detainee on Staff Sexual Assault Allegations (Substantiated)
+- **sexual_inmatedetainee**: Inmate on Detainee Sexual Assault Allegations
+- **sexual_inmatedetainee_sub**: Inmate on Detainee Sexual Assault Allegations (Substantiated)
+- **sexual_staffdetainee**: Staff on Detainee Sexual Assault Allegations
+- **sexual_staffdetainee_sub**: Staff on Detainee Sexual Assault Allegations (Substantiated)
+- **sickcallencounters**: Sick Call Encounters
+- **sickcallrequests**: Sick Call Requests
+- **sickcallencounters**: Sick Call Encounters
+- **stripsearches**: Strip Searches
+- **suicideattempts**: Suicide Attempts
+- **suicideconstantmentalhealthwatch**: Number under Suicide/Constant Mental Health Watch
+- **disciplinary_filed**: Disciplinary Grievances (Filed)
+- **disciplinary_sub**: Disciplinary Grievances (Substantiated)
+- **food_filed**: Food Grievances (Filed)
+- **food_sub**: Food Grievances (Substantiated)
+- **force_filed**: Use of Force Grievances (Filed)
+- **force_sub**: Use of Force Grievances (Substantiated)
+- **library_filed**: Library Grievances (Filed)
+- **library_sub**: Library Grievances (Substantiated)
+- **mail_filed**: Mail Grievances (Filed)
+- **mail_sub**: Mail Grievances (Substantiated)
+- **medical_filed**: Medical Grievances (Filed)
+- **medical_sub**: Medical Grievances (Substantiated)
+- **other_filed**: Other Grievances (Filed)
+- **other_sub**: Other Grievances (Substantiated)
+- **prop_filed**: Property Grievances (Filed)
+- **prop_sub**: Property Grievances (Substantiated)
+- **safety_filed**: Safety Grievances (Filed)
+- **safety_sub**: Safety Grievances (Substantiated)
+- **sanitation_filed**: Sanitation Grievances (Filed)
+- **sanitation_sub**: Sanitation Grievances (Substantiated)
+- **sexualassult_filed**: Sexual Assault Grievances (Filed)
+- **sexualassault_sub**: Sexual Assault Grievances (Substantiated)
+- **solitary_filed**: Solitary Confinement Grievances (Filed)
+- **solitary_sub**: Solitary Confinement Grievances (Substantiated)
+- **staffconduct_filed**: Staff Conduct Grievances (Filed)
+- **staffconduct_sub**: Staff Conduct Grievances (Substantiated)
+- **visitation_filed**: Visitation Grievances (Filed)
+- **visitation_sub**: Visitation Grievances (Substantiated)
