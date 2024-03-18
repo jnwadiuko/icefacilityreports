@@ -1,5 +1,5 @@
 # icefacilityreports
-Data from Facility Significant Incident Reports from US Immigration and Customs Enforcement detention centers, scarped from the ICE Facility Significant Incident Reports from 2018-2022.  Data Can be seen on in interactive format at the ICE Facility Outcomes Dataset, along with a more detailed data dictionary. 
+Data from Facility Significant Incident Reports from US Immigration and Customs Enforcement detention centers, scarped from the ICE Facility Significant Incident Reports from 2018-2022.  Data Can be seen in interactive format at the [ICE Facility Outcomes Dataset](https://icefacilityoutcomes.shinyapps.io/ice_shiny/), along with a more detailed data dictionary. 
 
 # Data Dictionary
 - **name**: Facility Name
